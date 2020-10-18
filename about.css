@@ -1,0 +1,52 @@
+body {
+  background-image: url("images/bg.jpg");
+  margin: 0px;
+}
+h1 {
+  color: #e75480;
+}
+.header {
+  padding: 250px;
+}
+.header > h1 {
+  display: flex;
+  justify-content: center;
+}
+.header > h2 {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 24px;
+  font-family: fantasy;
+  background-image: url("images/bg.jpg");
+  font-weight: 400;
+  color: #ffffff;
+  border: solid white;
+  border-radius: 50px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: aqua;
+}
+.body__image {
+  display: flex;
+  justify-content: center;
+}
+.body__content {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  border-top: solid white;
+  color: aqua;
+}
+.about {
+  border: solid white;
+  border-radius: 10px;
+}
